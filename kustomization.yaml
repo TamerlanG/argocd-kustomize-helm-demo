@@ -4,7 +4,7 @@ kind: Kustomization
 helmCharts:
   - name: kubedoom
     repo: https://charts.christianhuth.de
-    version: '1.0.0'
+    version: '1.0.1'
     releaseName: doom
     namespace: kubedoom
     valuesFile: values.yaml
