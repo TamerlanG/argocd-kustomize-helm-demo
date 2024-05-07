@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+
+  "baseBranches": ["main", "develop"],
   "extends": [
     "config:recommended"
-  ],
-  "baseBranches": ["main", "/^release\\/.*/", "develop"]
+  ]
 }
